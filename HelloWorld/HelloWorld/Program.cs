@@ -10,7 +10,17 @@ namespace HelloWorld
 
             inputString = Console.ReadLine();
 
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello World." + "\n" + inputString);
+
         }
     }
 }
+
+//Challenge is:
+
+//Sample Input 
+//    Welcome to 30 Days of Code!
+
+//Sample Output
+//    Hello, World. 
+//    Welcome to 30 Days of Code!
